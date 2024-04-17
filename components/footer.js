@@ -3,20 +3,19 @@ import Image from "next/image";
 import dynamic from 'next/dynamic';
 import React from "react";
 import Container from "./container";
+
 const FontAwesomeIcon = dynamic(() => import('@fortawesome/react-fontawesome').then((mod) => mod.FontAwesomeIcon), {
   ssr: false
 })
-import { faXTwitter, faReddit, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faXTwitter, faReddit, faTelegram, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   const navigation = [
     "Foreword",
     "Evidence",
-    "Roadmap",
-    "Chart",
-    "FAQ",
   ];
-  const legal = ["Terms", "Legal"];
+  const legal = ["Roadmap", "FAQ"];
+
   return (
     <div className="relative">
       <Container>
@@ -56,7 +55,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-paleOrange-500focus:outline-none dark:focus:bg-paleOrange-500">
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-paleOrange-500 focus:outline-none dark:focus:bg-paleOrange-500">
                   {item}
                 </Link>
               ))}
@@ -65,7 +64,7 @@ export default function Footer() {
           <div className="">
             <div>Start the invation!</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a href="https://twitter.com/web3templates" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/KlokkieBeer" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faXTwitter} className="text-xl" />
                 <span className="sr-only">Twitter</span>
               </a>
@@ -73,9 +72,13 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faReddit} className="text-xl" />
                 <span className="sr-only">Reddit</span>
               </a>
-              <a href="https://instagram.com/web3templates" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/+RnSeDa5m_DUyNTBk" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTelegram} className="text-xl" />
                 <span className="sr-only">Telegram</span>
+              </a>
+              <a href="https://discord.gg/6BHkYb24" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faDiscord} className="text-xl" />
+                <span className="sr-only">Discord</span>
               </a>
             </div>
           </div>

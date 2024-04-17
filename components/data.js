@@ -12,7 +12,7 @@ import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "What I can do for you.",
-  desc: "",
+  desc: "Here you fo, finally a dev that is being honest!",
   image: benefitOneImg,
   bullets: [
     {

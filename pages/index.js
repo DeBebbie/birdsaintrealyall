@@ -14,12 +14,9 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title></title>
-        <meta
-          name="description"
-          content="Birds aren't real"
-        />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Birds Aren't Real - Uncover the Truth!</title>
+        <meta name="description" content="Explore the hidden truths behind the birds aren't real movement. Discover how drones have infiltrated our skies disguised as birds. Join us in spreading awareness and unveiling the conspiracy." />
+        <link rel="icon" href="/logo.svg" file="svg"/>
       </Head>
 
       <Navbar />
