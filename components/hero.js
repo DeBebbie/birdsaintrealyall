@@ -12,12 +12,12 @@ const Hero = () => {
               Birds aren't real and we need to bring awareness.
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Because Pump-Fun doesn't allow for the creation of marketing wallets because it's protocol is "Fai-Launch".
-              There are only things to improve on the devlopment side of things. Luckily I am actually a devloper.
-              After pool deployment the first thing will be trending on all the aggregators: DexTool, DexView, Birdeye, everything.
-              Once the pool has stabalized I will setup liquid staking programs and yield farms. This is necassery because they provide liquidity.
-              And are seen as LP providers, that annoying thing you see after the pool has been deployed on Raydium and you do a rug check, yes that's what I'm talking about.
-              Although I won't let this project die, I would want this project to be a stepping stone. I'm sitting on a far better project unlike anything you have seen in this space. 
+            Because Pump-Fun doesn't allow for the creation of marketing wallets because its protocol is 'Fair-Launch.' 
+            There are only things to improve on the development side of things. Luckily I am actually a developer. 
+            After pool deployment the first thing will be trending on all the aggregators: DexTools, DexView, Birdeye, everything. 
+            Once the pool has stabilized I will set up liquid staking programs and yield farms. 
+            This is necessary because they provide liquidity. And are seen as LP providers, that annoying thing you see after the pool has been deployed on Raydium and you do a rug check, yes that's what I'm talking about. 
+            Although I won't let this project die, I would want this project to be a stepping stone. I'm sitting on a far better project unlike anything you have seen in this space.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
