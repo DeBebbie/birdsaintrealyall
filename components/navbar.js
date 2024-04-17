@@ -5,10 +5,9 @@ import ThemeChanger from "./DarkSwitch";
 
 const Navbar = () => {
   const navigation = [
-    { name: "Why", href: "#why" },
-    { name: "Development", href: "#development" },
+    { name: "Foreword", href: "#why" },
+    { name: "Roadmap", href: "#development" },
     { name: "Proof", href: "#proof" },
-    { name: "Chart", href: "#chart" },
     { name: "FAQ", href: "#FAQ" },
   ];
 
@@ -29,7 +28,7 @@ const Navbar = () => {
                       height="32"
                       className="w-8"
                     />
-                    <span>Nextly</span>
+                    <span>Birds aren't real!</span>
                   </span>
                 </Link>
                 <Disclosure.Button
@@ -61,8 +60,8 @@ const Navbar = () => {
                       {item.name}
                     </Link>
                   ))}
-                  <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
-                    Get Started
+                  <Link href="https://pump.fun/" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                    Buy Pre-Sale Now!
                   </Link>
                 </Disclosure.Panel>
               </div>
@@ -82,8 +81,8 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-            Get Started
+          <Link href="https://pump.fun/" target="_blank" rel="noopener noreferrer" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+            Buy Pre-Sale Now!
           </Link>
 
           <ThemeChanger />

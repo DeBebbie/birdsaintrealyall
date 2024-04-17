@@ -35,23 +35,28 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What are you as the 'dev' getting out of this?",
+    answer: "I will use my share of the pie entirely for the other tier-one project that I'm working on. I advice you to stay connected!",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Why are you doing this?",
+    answer: "In order to learn project management and community building.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Why don't you as the dev think that this is a tier one project?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Because of the way pump-fun opperates. You can't setup strong economics for a token on this platform, there are other fair-launch platforms that do allow that, and any on the big tokens you see have fundamentels like that.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "How big can this project actually get?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Realisticly I believe somewhere in the area of $500,000,000 with a strong community. Tier one listing is only possible if the hype is crazy about BAR because the entire token is fair-launched. If we achieve that it could become way bigger than that though, but that all depends on the community.",
   },
+  {
+    question: "Where is the dev?",
+    answer: 
+    "I live in the UTC time zone so that's where my clock is at, I also do have a day job but I am able to be on TG and Discord for important messages, I will be less active durring that time."
+  }
 ];
 
 export default Faq;
