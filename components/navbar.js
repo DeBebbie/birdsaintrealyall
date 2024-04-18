@@ -60,7 +60,7 @@ const Navbar = () => {
                       {item.name}
                     </Link>
                   ))}
-                  <Link href="https://pump.fun/" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-2 mt-3 text-center text-white bg-paleOrange-500 rounded-md lg:ml-5">
+                  <Link href="https://pump.fun/7NLdaLj4pv5BWddFpjrHy7cSMCXCCbfYsTVzLxjG4cmv" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-2 mt-3 text-center text-white bg-paleOrange-500 rounded-md lg:ml-5">
                     Buy Pre-Sale Now!
                   </Link>
                 </Disclosure.Panel>
